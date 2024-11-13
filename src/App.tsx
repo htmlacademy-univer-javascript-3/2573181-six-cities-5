@@ -7,7 +7,7 @@ import NotFound from './pages/NotFound';
 import PrivateRoute from './components/PrivateRoute';
 import { AutoStatus } from './components/const';
 
-function App() {
+function App({ data }) {
   return (
     <BrowserRouter>
       <Routes>

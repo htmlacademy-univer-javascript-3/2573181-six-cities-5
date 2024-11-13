@@ -1,4 +1,6 @@
-function Card() {
+import { DATA } from '../../mocks/offers';
+
+function Card({ data }) {
   return (
     <article className="cities__card place-card">
       <div className="place-card__mark">
